@@ -44,7 +44,27 @@ Depois rode:
   npm run start:dev
 ```
 
-Após isso sua aplicação irá iniciar e você sera levado a página inicial com tudo funcionando.
+Após isso sua aplicação irá iniciar e você poderá fazer requisições HTTP para o servidor na porta http://localhost:3000.
+
+### Endpoints
+
+POST
+```http://localhost:3000/user/create```
+
+```
+{
+	"fullName": "Exemplo",
+	"email": "exemplo@gmail.com",
+	"phone": "38 9975-8967",
+	"business": "Empresa de teste"
+}
+```
+
+GET
+```http://localhost:3000/user/all```
+
+DELETE
+```http://localhost:3000/user/:id```
 
 ### Testes
 
