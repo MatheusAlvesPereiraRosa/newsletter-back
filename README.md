@@ -49,7 +49,6 @@ Após isso sua aplicação irá iniciar e você poderá fazer requisições HTTP
 ### Endpoints
 
 POST
-
 ```http://localhost:3000/user/create```
 
 ```
@@ -62,11 +61,9 @@ POST
 ```
 
 GET
-
 ```http://localhost:3000/user/all```
 
 DELETE
-
 ```http://localhost:3000/user/:id```
 
 ### Testes
