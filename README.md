@@ -10,7 +10,7 @@ O back-end foi feito utilizando Nest por sua praticidade envolvendo testes (Jest
 
 Primeiramente, certifique-se que você possui o postgres SQL baixado em sua máquina e rodando:
 
-Link do site: [[https://neo4j.com/download/](https://www.postgresql.org/download/)](https://www.postgresql.org/download/)
+Link do site: https://www.postgresql.org/download/
 
 Configure o banco de dados em sua máquina e depois abra o pgAdmin para entrar no gerenciador de banco de dados.
 
